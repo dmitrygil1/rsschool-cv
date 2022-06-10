@@ -1,0 +1,489 @@
+/*Обнуление стандартных стилей.*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  *,
+  *:before,
+  *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,
+  :active {
+    outline: none;
+  }
+  a:focus,
+  a:active {
+    outline: none;
+  }
+  
+  nav,
+  footer,
+  header,
+  aside {
+    display: block;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  input,
+  button,
+  textarea {
+    font-family: inherit;
+  }
+  
+  input::-ms-clear {
+    display: none;
+  }
+  button {
+    cursor: pointer;
+  }
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  ul li {
+    list-style: none;
+  }
+  img {
+    vertical-align: top;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-size: inherit;
+    font-weight: 400;
+  }
+  /*___________________________________________________________*/
+  
+  @font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/GilroyBold.eot");
+    src: url("../fonts/GilroyBold.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/GilroyBold.woff") format("woff"),
+      url("../fonts/GilroyBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+  
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/GilroyMedium.eot");
+    src: url("../fonts/GilroyMedium.eot?#iefix") format("embedded-opentype"),
+      url("../fonts/GilroyMedium.woff") format("woff"),
+      url("../fonts/GilroyMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+  }
+  
+  /*Шрифты добавил*/
+  .menubar {
+    height: 88px;
+  }
+  #line {
+    position: absolute;
+    width: 940.6px;
+    height: 0px;
+    left: 250.69px;
+    top: 87.94px;
+  
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  body {
+    position: absolute;
+    width: 1445px;
+    height: 4759px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    margin: 0 auto;
+    background: #ffffff;
+  }
+  .Home_menu {
+    position: absolute;
+    left: 17.44%;
+    right: 79.15%;
+    top: 0.69%;
+    bottom: 98.82%;
+  
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    line-height: 22px;
+  
+    color: #070707;
+  }
+  
+  .AboutMe_menu {
+    position: absolute;
+    left: 31.62%;
+    right: 62.68%;
+    top: 0.69%;
+    bottom: 98.82%;
+  
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    line-height: 22px;
+  
+    color: #828282;
+  }
+  
+  .Skills_menu {
+    position: absolute;
+    left: 48.09%;
+    right: 48.99%;
+    top: 0.69%;
+    bottom: 98.82%;
+  
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    line-height: 22px;
+  
+    color: #828282;
+  }
+  
+  .Portfolio_menu {
+    position: absolute;
+    left: 61.71%;
+    right: 33.29%;
+    top: 0.67%;
+    bottom: 99.03%;
+  
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  
+    color: #828282;
+  }
+  .Contacts_menu {
+    position: absolute;
+    left: 77.48%;
+    right: 17.16%;
+    top: 0.69%;
+    bottom: 98.82%;
+  
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    line-height: 22px;
+  
+    color: #828282;
+  }
+  
+  .DenisNovic {
+    position: absolute;
+    left: 17.37%;
+    right: 74.08%;
+    top: 2.69%;
+    bottom: 94.82%;
+  
+    font-family: "Gilroy-Bold";
+    font-size: 47.3392px;
+    line-height: 59px;
+  
+    color: #070707;
+  }
+  
+  .contact {
+    position: absolute;
+    left: 46.49%;
+    right: 42.74%;
+    top: 3.85%;
+    bottom: 95.22%;
+  
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+  
+    color: #070707;
+  }
+  .lang {
+    white-space: nowrap; /*отмена переноса*/
+    position: absolute;
+    left: 1177px;
+    top: 223px;
+    right: 246px;
+    font-family: "Gilroy-Bold";
+    font-size: 16px;
+    line-height: 20px;
+  
+    color: #828282;
+    transform: rotate(-90deg);
+  }
+  
+  .portret {
+    position: absolute;
+    width: 943.61px;
+    height: 387px;
+    left: 250.69px;
+    top: 276.94px;
+  }
+  
+  .AboutMe {
+    position: absolute;
+    width: 100%;
+    height: 506px;
+    left: 0px;
+    top: 768px;
+  
+    background: #f6f6f6;
+  }
+  .AboutMe_Title {
+    position: absolute;
+    left: 44.68%;
+    right: 44.54%;
+    top: 18.66%;
+    bottom: 80.43%;
+  
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+  
+    color: #070707;
+  }
+  .AboutMe_Text {
+    padding: 181px 480px;
+  
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  
+    color: #070707;
+  }
+  
+  .skills_title {
+    position: absolute;
+    left: 45.8%;
+    right: 45.59%;
+    top: 28.68%;
+    bottom: 70.77%;
+  
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+  }
+  .skills_text {
+    position: absolute;
+    left: 42.18%;
+    right: 42.04%;
+    top: 30.68%;
+    bottom: 68.81%;
+  
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  
+    /* Black */
+  
+    color: #070707;
+  }
+  
+  .Photoshop {
+    position: absolute;
+    width: 166.46px;
+    height: 206.29px;
+    left: 255.71px;
+    top: 1566.65px;
+  }
+  .Illustrator {
+    position: absolute;
+    width: 166.46px;
+    height: 206.27px;
+    left: 512.42px;
+    top: 1567.67px;
+  }
+  .AE {
+    position: absolute;
+    width: 166.46px;
+    height: 206.27px;
+    left: 769.13px;
+    top: 1567.67px;
+  }
+  .figma {
+    position: absolute;
+    width: 166.46px;
+    height: 205.27px;
+    left: 1025.84px;
+    top: 1567.67px;
+  }
+  .Portfolio {
+    position: absolute;
+    width: 1445px;
+    height: 2253px;
+    left: 0px;
+    top: 1884px;
+    background: #f6f6f6;
+  }
+  .Portfolio_Tittle {
+    position: absolute;
+    left: 32.27%;
+    right: 32.39%;
+    top: 81px;
+  
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+  
+    color: #000000;
+  }
+  .Fashion_img {
+    margin: 10px 254px;
+    margin-top: 203px;
+  }
+  .Broun_img {
+    margin: 80px 254px;
+  }
+  .Reebok_img {
+    margin: 80px 254px;
+  }
+  
+  .fash {
+      font-family: 'Gilroy-Medium';
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      text-decoration-line: underline;
+      
+      /* Black */
+      
+      color: #070707;
+  }
+  
+  .reeb {
+      font-family: 'Gilroy-Medium';
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      text-decoration-line: underline;
+      
+      /* Black */
+      
+      color: #070707;
+  }
+  .broun {
+      font-family: 'Gilroy-Medium';
+      font-size: 18px;
+      line-height: 22px;
+      text-align: center;
+      text-decoration-line: underline;
+      
+      /* Black */
+      
+      color: #070707;
+  }
+  
+  .Contacts_Tittle{
+      position: absolute;
+  left: 44.89%;
+  right: 45.03%;
+  top: 89.33%;
+  bottom: 9.76%;
+  
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+  
+  /* Black */
+  
+  color: #070707;
+  }
+  .Contacts_Text{
+      position: absolute;
+  left: 40.86%;
+  right: 40.1%;
+  top: 90.66%;
+  bottom: 8.42%;
+  
+  font-family: 'Gilroy-Medium';
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  
+  /* Black */
+  
+  color: #070707;
+  }
+  
+  .Contact_Button{
+      position: absolute;
+      bottom: 329px;
+      left: 637px;
+      line-height: 2.5;
+      padding: 0 20px;
+      font-size: 1.5rem;
+      text-align: center;
+      color: #fff;
+      text-shadow: 1px 1px 1px #000;
+      font-family: Gilroy-Medium;
+      border-radius: 10px;
+      background-color: #000;
+  }
+  footer{
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 80px;
+  }
+  footer .textinbottom {
+      position: absolute;
+      
+      bottom: 123px;
+      left: 38.86%;
+      right: 38.1%;
+  
+  
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+  
+    color: #070707;
+  }
+  #LNButton {
+      position: absolute;
+      bottom: 202px;
+      left: 552px;
+  }
+  
+  #InstButton {
+      position: absolute;
+      bottom: 202px;
+      left: 654px;
+  }
+  #BHButton {
+      position: absolute;
+      bottom: 202px;
+      left: 753px;
+  }
+  #BasketButton {
+      position: absolute;
+      bottom: 202px;
+      left: 855px;
+  }
