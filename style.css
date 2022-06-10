@@ -276,30 +276,6 @@ h1, h2, h3, h4, h5 {
   }
 }
 
-#form_input label {
-  color: #505050;
-  cursor: pointer;
-  font-size: 1.4em;
-  font-family: 'Roboto Slab', serif;
-}
-
-#form_input label > span {
-  color: #e87e7e;
-}
-
-#form_input input,#form_input textarea {
-  margin-bottom: 10px;
-  width: 70%;
-  padding: 10px 2%;
-  border-radius: 7px;
-  border: 2px solid silver;
-  font-size: 0.9em;
-  color: #4a4a4a;
-}
-
-#form_input input:focus, #form_input textarea:focus {
-  border-color: #333;
-}
 
 .btn {
   float: left;
